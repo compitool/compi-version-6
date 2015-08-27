@@ -16,7 +16,7 @@ public class ZSharpCompiler {
 	public static void Main2 (string[] args) {
 		// determine the filename
 		if (args.Length < 1) { 
-			Console.WriteLine("usage: zsc.exe <filename>.zs"); 
+			Console.WriteLine("use : zsc.exe <filename>.zs"); 
 			return;
 		}
 		string filename = args[0];
